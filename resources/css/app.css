@@ -1,0 +1,42 @@
+div.cover{
+    width: 100%;
+    height: 275px;
+    background: #eeeeee;
+    z-index: 1;
+    overflow: hidden;
+}
+img.cover-img{
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    z-index: 2;
+}
+div.cover-effect{
+    position: absolute;
+    width: 100%;
+    height: 275px;
+    background: #000000;
+    mask-image: radial-gradient(circle 300px at var(--x) var(--y), rgba(255,255,255,0),black);
+}
+
+h1.legend{
+    width: 485px;
+    font-variant-ligatures: common-ligatures;
+    background: #000000;
+    color: #ffffff;
+    line-height: 100px;
+    min-height: 100px;
+    position: absolute;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+ul a{
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+div.col-4 div.card{
+    min-height: 200px;
+}
